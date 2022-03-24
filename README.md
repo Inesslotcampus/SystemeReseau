@@ -6,7 +6,7 @@ SSH (Secure Shell) est un protocole de communication sécurisé qui permet de se
 
 Dans git bash 
 
-- ssh root@51.15.252.63
+- ssh ines_slotwinski@51.15.252.63
 - yes 
 - mdp
 
