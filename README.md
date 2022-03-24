@@ -6,7 +6,7 @@ SSH (Secure Shell) est un protocole de communication sécurisé qui permet de se
 
 Dans git bash 
 
-- ssh root@51.158.118.54
+- ssh root@51.15.252.63
 - yes 
 - mdp
 
@@ -18,6 +18,16 @@ Dans git bash
 -  cat: affiche le contenu d’un fichier => mv ancien_nom.txt nouveau_nom.txt
 
  - nano/vim : permet de créer un fichier ou de modifier un fichier existant => nano fichier.txt
+ - RTFM : read the fucking manual
+ - STFW: search the fucking web
+ - ATFG: ask the fucking google
 
-## Chercher Messi dans liste des dossiers
+## Chercher qqch dans liste des dossiers
+
+## changer mdp
+
+- passwd
+
+
+
 
