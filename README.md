@@ -50,11 +50,19 @@ https://memo-linux.com/installer-php-8-0-sur-debian-10/
 https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-debian-10
 
 
-Nom du domaine
+### Nom du domaine
 
 -nessou.me
 
 
+__Pour créer mon site il faut un virtual host__
+
+/etc/apache2/sites-available sont les sites disponibles (available)
+/etc/apache2/sites-enabled sont les sites actifs, activés (enabled)
+
+## config virtual host
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-18-04-fr
 
 
 
