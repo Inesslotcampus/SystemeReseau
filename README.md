@@ -15,7 +15,9 @@ Dans git bash
  - cp: copier le fichier => cp fichier1.txt fichier2.txt
 -  mv: bouge ou renome un fichier =>mv ancien_nom.txt nouveau_nom.txt
 => mv /tmp/fichier1.txt /home/plv/
--  cat: affiche le contenu d’un fichier => mv ancien_nom.txt nouveau_nom.txt
+=> mv ancien_nom.txt nouveau_nom.txt
+-  cat: affiche le contenu d’un fichier 
+-  
 
  - nano/vim : permet de créer un fichier ou de modifier un fichier existant => nano fichier.txt
  - RTFM : read the fucking manual
