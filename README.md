@@ -29,5 +29,30 @@ Dans git bash
 - passwd
 
 
+## Créer un sudo user
+
+https://thucnc.medium.com/how-to-create-a-sudo-user-on-ubuntu-and-allow-ssh-login-20e28065d9ff
+
+- $ sudo adduser Namenewuser
+- $ usermod -aG sudo newuser
+- $ su - newuser
+- $ mkdir ~/.ssh
+- $ vim ~/.ssh/authorized_keys
+- $ ssh -i path_to_your_ssh_private_key newuser@server_address
+
+
+## Installer php8/mysql
+
+https://memo-linux.com/installer-php-8-0-sur-debian-10/
+
+## Installer apache 
+
+https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-debian-10
+
+
+
+
+
+
 
 
