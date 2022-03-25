@@ -11,7 +11,7 @@ Dans git bash
 - mdp
 
 ## Commandes
-
+scp <fichier à envoyer> <utilisateur>@<hôte distant>:<dossier cible>
  - cp: copier le fichier => cp fichier1.txt fichier2.txt
 -  mv: bouge ou renome un fichier =>mv ancien_nom.txt nouveau_nom.txt
 => mv /tmp/fichier1.txt /home/plv/
