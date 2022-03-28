@@ -23,8 +23,17 @@ scp <fichier à envoyer> <utilisateur>@<hôte distant>:<dossier cible>
  - RTFM : read the fucking manual
  - STFW: search the fucking web
  - ATFG: ask the fucking google
+ 
+ ### executer un script
+ 
+ - cd nom-du-repertoire 
+ - chmod +x script.sh //permet de rendre le dossier executable
+ - ./script.sh 
+ 
 
 ## Chercher qqch dans liste des dossiers
+ 
+ 
 
 ## changer mdp
 
