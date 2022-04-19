@@ -17,8 +17,6 @@ scp <fichier à envoyer> <utilisateur>@<hôte distant>:<dossier cible>
 => mv /tmp/fichier1.txt /home/plv/
 => mv ancien_nom.txt nouveau_nom.txt
 -  cat: affiche le contenu d’un fichier 
--  
-
  - nano/vim : permet de créer un fichier ou de modifier un fichier existant => nano fichier.txt
  - RTFM : read the fucking manual
  - STFW: search the fucking web
@@ -33,7 +31,8 @@ scp <fichier à envoyer> <utilisateur>@<hôte distant>:<dossier cible>
 
 ## Chercher qqch dans liste des dossiers
  
- 
+ - git grep nomcaractère = recherche dans tous les fichiers ou se trouvent les caractères
+ - find nomFichierDossier
 
 ## changer mdp
 
