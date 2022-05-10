@@ -33,7 +33,11 @@ scp <fichier à envoyer> <utilisateur>@<hôte distant>:<dossier cible>
 
 ## Chercher qqch dans liste des dossiers
  
- - git grep nomcaractère = recherche dans tous les fichiers ou se trouvent les caractères
+ - locate nomdufichier = chercher un fichier 
+ - find / -type d -name www = chercher un type de fichier spécifique
+ - grep -rn "It works" /var/www/ = rechercher un charactère spé
+ -  	grep nomMot * = tous les fichiers qui contiennent un mot
+ - grep nomcaractère = recherche dans tous les fichiers ou se trouvent les caractères
  - find nomFichierDossier
 
 ## changer mdp
