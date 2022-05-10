@@ -1,5 +1,9 @@
 # Système Réseau
 
+- RTFM : read the fucking manual
+ - STFW: search the fucking web
+ - ATFG: ask the fucking google
+
 SSH (Secure Shell) est un protocole de communication sécurisé qui permet de se connecter à un ordinateur distant de façon sécurisée, au sein d’un réseau potentiellement non sécurisé comme Internet.
 
 ## Autentification
@@ -18,9 +22,7 @@ scp <fichier à envoyer> <utilisateur>@<hôte distant>:<dossier cible>
 => mv ancien_nom.txt nouveau_nom.txt
 -  cat: affiche le contenu d’un fichier 
  - nano/vim : permet de créer un fichier ou de modifier un fichier existant => nano fichier.txt
- - RTFM : read the fucking manual
- - STFW: search the fucking web
- - ATFG: ask the fucking google
+ 
  
  ### executer un script
  
