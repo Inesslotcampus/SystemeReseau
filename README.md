@@ -95,6 +95,8 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-ho
 
 
 
-
+## DNS (domaine name system)
+ la principale fonction est de traduire un nom de domaine en adresse IP.
+ 
 
 
