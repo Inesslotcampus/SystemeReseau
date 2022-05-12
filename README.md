@@ -40,11 +40,15 @@ scp <fichier à envoyer> <utilisateur>@<hôte distant>:<dossier cible>
 ## Chercher qqch dans liste des dossiers
  
  - locate nomdufichier = chercher un fichier 
+ - find = trouver le chemin du fichier ou dossier
+ -  grep nomMot * = tous les fichiers qui contiennent nomMot
+  - grep nomcaractère = recherche dans tous les fichiers ou se trouvent les caractères
+ 
  - find / -type d -name www = chercher un type de fichier spécifique
- - grep -rn "It works" /var/www/ = rechercher un charactère spé
- -  	grep nomMot * = tous les fichiers qui contiennent un mot
- - grep nomcaractère = recherche dans tous les fichiers ou se trouvent les caractères
- - find nomFichierDossier
+ - grep -rn "charactère" /chemin/ = rechercher un charactère spé
+ 
+
+ 
 
 ## changer mdp
 
