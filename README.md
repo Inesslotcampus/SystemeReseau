@@ -94,6 +94,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-ho
  ## Failles
  
  XSS(Cross-Site Scripting) = faille de sécurité d'un site web qui consiste à injecter du contenu malveillant en langage script. Il peut rediriger les internautes vers un autre site web, bloquer l'accès au site, prendre le contrôle d'un site web pour ajouter ou supprimer du contenu, récupérer des données transmises par les utilisateurs.
+ Pour l'éviter il faut filtrer les "<" et ">";
  
   Injections SQL(SQLi) = modification d'une requête envoyée à la base de donnée pour en détourner l'utilisation. On peut se connecter à un site en tant qu'administrateur,  modifier des données.
 
