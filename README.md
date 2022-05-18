@@ -103,5 +103,44 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-ho
 ## DNS (domaine name system)
  la principale fonction est de traduire un nom de domaine en adresse IP.
  
+ 
+ ## installer serveur web:
+ 
+ ### installer apache2:
+ 
+ - sudo apt update
+  - sudo apt install apache2
+ 
+ ### Check le status
+ 
+ - sudo systemctl status apache2
+ 
+ ### Interragir avec apache
+ 
+ - sudo systemctl stop apache2
+ - sudo systemctl start apache2
+ -sudo systemctl restart apache
+ - sudo systemctl reload apache2 = recharger config
+ - sudo systemctl disable apache2 =empecher le serveur de se lancer au démarrage
+ - sudo systemctl enable  apache2 = activer démarage
+ 
+ ## virtual host
+ 
+ cf virtualhost
+ 
+ ## mariadb (système gestion bdd)
+ 
+ - sudo apt install mariadb-server
+ - sudo mysql_secure_installation
+ - sudo mariadb
+ 
+ 
+ ## PHP
+ 
+ sudo apt install php libapache2-mod-php php-mysql
+ sudo nano /etc/apache2/mods-enabled/dir.conf
+ 
+
+
 
 
